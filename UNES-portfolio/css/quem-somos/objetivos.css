@@ -1,0 +1,67 @@
+.objetivos h2 {
+  text-align: center;
+  margin-top: 32px;
+  margin-bottom: 24px;
+}
+
+.objetivos1 {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  margin-bottom: 24px;
+  gap: 16px;
+  background-color: #f3f3f3;
+  border-radius: 4px;
+}
+
+.objetivos1 img {
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.objetivos2 img {
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.objetivos2 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin-bottom: 24px;
+  gap: 16px;
+  background-color: #f3f3f3;
+  border-radius: 4px;
+}
+
+.objetivos1 p {
+  padding: 16px;
+  font-size: 1.250rem;
+}
+
+.objetivos2 p {
+  padding: 16px;
+  font-size: 1.250rem;
+}
+
+@media (max-width: 800px) {
+
+  .objetivos1 img, .objetivos2 img {
+    height: 250px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .objetivos h2 {
+    margin-top: -30px;
+  }
+
+  .objetivos1, .objetivos2 {
+    grid-template-columns: 1fr;
+  }
+
+  .objetivos2 {
+    margin-top: 32px;
+  }
+}

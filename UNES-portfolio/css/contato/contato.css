@@ -1,0 +1,16 @@
+.contato h2 {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.contato p {
+  margin-bottom: 32px;
+  font-size: 1.125rem;
+  text-align: center;
+}
+
+@media (max-width: 800px) {
+  .contato {
+    padding: 0px 32px;
+  }
+}

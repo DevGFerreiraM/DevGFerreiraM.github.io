@@ -1,0 +1,21 @@
+.capa-bg {
+  background-color: #f3f3f3;
+  position: absolute;
+  width: 100%;
+  left: 0px;
+}
+
+.imagem-capa img {
+  margin: 0 auto;
+  position: relative;
+}
+
+.container-capa {
+  margin-bottom: 450px;
+}
+
+@media (max-width: 450px) {
+  .imagem-capa img {
+    object-fit: cover;
+  }
+}

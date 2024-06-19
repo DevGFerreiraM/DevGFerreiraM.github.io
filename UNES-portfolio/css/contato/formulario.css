@@ -1,0 +1,48 @@
+.formulario {
+  display: grid;
+  overflow-x: hidden;
+}
+
+.form label {
+  margin-bottom: 4px;
+  font-weight: 600;
+}
+
+.form input {
+  margin-bottom: 18px;
+  background-color: #f3f3f3;
+  border: 2px solid gray;
+  padding: 8px 16px;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 1.3rem;
+}
+
+.form textarea {
+  margin-bottom: 24px;
+  background-color: #f3f3f3;
+  border: 2px solid gray;
+  height: fit-content;
+  padding: 8px 16px;
+}
+
+.form button {
+  padding: 16px 32px;
+  text-transform: uppercase;
+  font-weight: 600;
+  border: 2px solid gray;
+  border-radius: 4px;
+  margin-bottom: 32px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background-color: #e2e2e2;
+}
+
+@media (max-width: 800px) {
+  .formulario {
+    padding: 32px;
+  }
+}

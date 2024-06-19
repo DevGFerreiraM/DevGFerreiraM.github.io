@@ -1,0 +1,39 @@
+.footer-bg {
+  background-color: #f3f3f3;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 32px 128px;
+  border-radius: 4px;
+  justify-content: center;
+}
+
+.footer-contato li {
+  margin-bottom: 8px;
+}
+.footer-nav li {
+  margin-bottom: 8px;
+}
+
+.footer-nav a:hover, .footer-contato a:hover {
+  color: #4f4f4f;
+}
+
+.footer-bg h3 {
+  text-align: center;
+  grid-column: 1/-1;
+  margin-top: 20px;
+}
+.footer-bg h4 {
+  margin-bottom: 8px;
+  color: #4f4f4f;
+}
+
+@media (max-width: 800px) {
+  .footer-bg {
+    grid-template-columns: 1fr 1fr;
+    padding: 16px;
+  }
+  .footer-bg img {
+    display: none;
+  }
+}

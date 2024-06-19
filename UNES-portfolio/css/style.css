@@ -1,0 +1,11 @@
+@import "./global.css";
+@import "./header.css";
+@import "./home/capa.css";
+@import "./home/apresentacao.css";
+@import "./home/perguntas.css";
+@import "./footer.css";
+@import "./quem-somos/quemsomos.css";
+@import "./quem-somos/objetivos.css";
+@import "./quem-somos/superiores.css";
+@import "./contato/contato.css";
+@import "./contato/formulario.css";

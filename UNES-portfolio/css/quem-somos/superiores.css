@@ -1,0 +1,60 @@
+.superiores h2 {
+  text-align: center;
+  margin-top: 36px;
+}
+
+.superior1 {
+  display: flex;
+  margin-bottom: 16px;
+  align-items: center;
+  padding: 32px;
+  gap: 32px;
+}
+
+.superior1 strong {
+  font-size: 1.250rem;
+}
+
+.superior1 p {
+  font-size: 1.1rem;
+  max-width: 65ch;
+}
+
+.superior2 {
+  display: flex;
+  margin-bottom: 16px;
+  align-items: center;
+  padding: 32px;
+  gap: 32px;
+}
+
+.superior2 h3 {
+  font-size: 1.250rem;
+  max-width: 65ch;
+}
+
+.superior2 p {
+  font-size: 1.1rem;
+  max-width: 65ch;
+}
+
+@media (max-width: 800px) {
+  .superiores {
+    padding: 32px;
+  }
+  .superiores h2 {
+    margin-top: -30px;
+  }
+}
+
+@media (max-width: 600px) {
+  .superiores h2 {
+    margin-top: 12px;
+  }
+  .superiores {
+    padding: 0px;
+  }
+  .superior1, .superior2 {
+    flex-direction: column;
+  }
+}
