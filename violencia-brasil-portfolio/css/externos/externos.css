@@ -1,0 +1,97 @@
+.externo {
+  padding: 32px;
+}
+
+.externo h2 {
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.externo-idade {
+  display: flex;
+}
+
+.externo-idade p {
+  background-color: #1c1c1c;
+  border-radius: 4px;
+  padding: 24px;
+  font-size: 1.5rem;
+}
+
+.externo-acidentes h2 {
+  margin-top: 64px;
+}
+
+.externo-acidentes p {
+  margin-top: 8px;
+}
+
+.externo-acidentes img {
+  background-color: #fff;
+  width: 100%;
+}
+
+.explicacao-externo span {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 4px;
+  color: #fff;
+}
+
+.lista-explicacao-externo1 li:first-child {
+  margin-bottom: 36px;
+}
+
+.explicacao-externo {
+  display: flex;
+  gap: 20px;
+  background-color: #1c1c1c;
+  padding: 32px;
+  border-radius: 4px;
+}
+
+.explicacao-externo ul li {
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.explicacao-externo ul li:last-child {
+  margin-bottom: 0px;
+}
+
+.explicacao-externo2 {
+  display: flex;
+  gap: 20px;
+  background-color: #1c1c1c;
+  padding: 32px;
+  border-radius: 4px;
+}
+
+.explicacao-externo2 ul li {
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.explicacao-externo2 span {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 4px;
+  color: #fff;
+}
+
+.explicacao-externo2 .lista-explicacao-externo1 li:first-child {
+  margin-bottom: 20px;
+}
+
+.externo h3 {
+  text-align: center;
+  margin-bottom: -4px;
+  border: none;
+  background-color: #1c1c1c;
+  border-radius: 4px;
+  padding: 8px 16px;
+  font-size: 1.5rem;
+  margin-top: 40px;
+  color: #fff;
+  font-weight: 600;
+}

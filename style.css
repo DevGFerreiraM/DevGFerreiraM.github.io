@@ -1,0 +1,12 @@
+@import "./css/global/global.css";
+@import "./css/global/header.css";
+@import "./css/global/footer.css";
+@import "./css/home/informacao-principal.css";
+@import "./css/home/sugestoes.css";
+@import "./css/home/formacoes-home.css";
+@import "./css/home/contato-home.css";
+@import "./css/sobremim/introducao-basica.css";
+@import "./css/sobremim/formacao-sobremim.css";
+@import "./css/projetos/projetos.css";
+@import "./css/projetos/pags-internas/projetosinternos.css";
+@import "./css/global/modo-escuro.css";

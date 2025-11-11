@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="./img/favicon-violencia.svg">
+  <link rel="stylesheet" href="./style.css">
+  <title>Estatísticas da Violência no Brasil</title>
+
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+
+<body>
+    <header class="header">
+      <a href="./index.html">
+        <h1>Violência no Brasil</h1>
+      </a>
+      <nav>
+        <ul>
+          <li><a href="#contexto">Motivos</a></li>
+          <li><a href="#categorias">Categorias</a></li>
+          <li><a href="https://www.ipea.gov.br/atlasviolencia/filtros-series">Fonte</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="bg-geral">
+
+    <section id="geral" class="introducao">
+      <div class="introducao-conteudo">
+        <h2 class="fadeInDown" data-anime="100">Estatísticas Gerais - Dashboard</h2>
+        <img class="fadeInLeft" data-anime="300" id="dashboard" src="./img/dashboard.jpg" alt="dashboard">
+        <p class="fadeInRight" data-anime="200">O Brasil é o país que mais mata pessoas no planeta. Seus números superaram os números da guerra da Síria, por exemplo. Somente em 2021 houveram <span>47.847 homícidios.</span></p>
+        <p class="fadeInRight" data-anime="200">A maior parte das mortes no país ocorreram em incidentes com arma de fogo. Houveram um total de <span>33.039 mortes com arma de fogo</span>, sendo assim 69,1% do total de homícidios.</span><br></p>
+        <div data-anime="200" class="introducao-estados fadeInRight">
+          <div class="estados-aumentaram">
+            <h3>Aumentaram de índice</h3>
+            <ul>
+              <li>Amazonas +53,6%</li>
+              <li>Amapá +37,2%</li>
+              <li>Rondônia +33,2%</li>
+            </ul>
+          </div>
+
+          <div class="estados-diminuiram">
+            <h3>Diminuíram de índice</h3>
+            <ul>
+              <li>Acre -50%</li>
+              <li>Goiás -28,4%</li>
+              <li>DF -23,7%</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div id="myModal" class="modal">
+      <span class="close">&times;</span>
+      <img class="modal-content" id="img01">
+      <div id="caption"></div>
+    </div>
+
+    <section id="contexto" class="contexto">
+      <h2 class="contexto-titulo">Por que o Brasil é um País tão Violento?</h2>
+      <div class="contexto-bg">
+        <img src="./img/bandeira-brasil.jpg" alt="bandeira do brasil">
+        <div class="contexto-conteudo">
+          <p>
+            <strong>A violência no Brasil é um fenômeno complexo que tem raízes históricas, sociais, econômicas e políticas. Aqui estão alguns pontos-chave que contribuíram para a violência no país ao longo do tempo:</strong> <br> <br>
+            A história do Brasil é marcada pela colonização portuguesa e pelo uso extensivo de escravos africanos. A escravidão deixou um legado de desigualdade, injustiça social e tensões raciais que ainda afetam o país hoje.
+            O Brasil tem uma das maiores desigualdades de renda do mundo. A disparidade entre ricos e pobres é evidente em muitos aspectos da vida, incluindo acesso à educação, saúde e oportunidades econômicas. A desigualdade socioeconômica cria um terreno fértil para a violência, pois pode levar à marginalização, exclusão e conflitos. <br> <br>
+            Nas últimas décadas, o país passou por um processo intenso de urbanização, com muitas pessoas migrando do campo para as cidades em busca de trabalho e melhores condições de vida. No entanto, esse crescimento urbano nem sempre foi acompanhado por políticas eficazes de planejamento urbano, resultando em favelas e bairros periféricos desprovidos de infraestrutura básica, onde a violência muitas vezes prolifera. <br> <br>
+            O Brasil é uma rota importante para o tráfico de drogas na América do Sul, o que alimenta a atividade criminosa e a violência. O crime organizado, incluindo facções criminosas dentro e fora dos presídios, exerce um grande controle sobre certas áreas urbanas, contribuindo para altos índices de homicídios e outras formas de violência. <br>
+            A impunidade é um problema sério no país. Muitos crimes não são investigados ou punidos devidamente, minando a confiança da população no sistema de justiça e incentivando a perpetuação da violência.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="categorias" class="categorias">
+      <h2>Categorias Estatísticas</h2>
+      <div class="categorias-conteudo">
+        <ul>
+          <li>
+            <a href="./homicidiosregiao.html"><img src="./img/pin.svg" alt="">Homícidios por Região</a>
+          </li>
+          <li>
+            <a href="./homicidiosexternos.html"><img src="./img/externo.svg" alt="">Homícidios por Fatores Externos</a>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href="./homicidiosgenero.html"><img src="./img/genero.svg" alt="">Violência por Gênero</a>
+          </li>
+          <li>
+            <a href="./homicidiosetnia.html"><img src="./img/etnia.svg" alt="">Violência por Etnia</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+  </div>
+
+  <footer class="footer-bg">
+    <div class="footer">
+    <div class="footer-participantes">
+      <h3>Participantes do grupo:</h3>
+      <ul>
+        <li>Caique Bonfim dos Santos - RA: 312312762</li>
+        <li>Gabriel Ferreira Mendes - RA: 312311363</li>
+        <li>Julia Cristina Araujo Oliveira - RA: 823157679</li>
+        <li>Júlia Durães Rodrigues - RA: 823153491</li>
+        <li>Queila Caroline Pimenta - RA: 312411663</li>
+      </ul>
+    </div>
+
+    <div class="footer-nav">
+      <h3>Navegação</h3>
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./homicidiosregiao.html">Região</a></li>
+        <li><a href="./homicidiosexternos.html">Externos</a></li>
+        <li><a href="./homicidiosgenero.html">Gênero</a></li>
+        <li><a href="./homicidiosetnia.html">Etnia</a></li>
+      </ul>
+    </div>
+  </div>
+  </footer>
+
+  <script src="./js/plugins/simple-anime.js"></script>;
+  <script src="./js/script.js"></script>
+</body>
+
+</html>

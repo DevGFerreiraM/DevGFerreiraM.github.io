@@ -1,0 +1,138 @@
+.introducao-console {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 24px;
+}
+
+.introducao-console img {
+  border-radius: 5px;
+}
+
+.introducao-conteudo-console p {
+  padding: initial;
+  margin-bottom: 48px;
+  max-width: 35ch;
+}
+
+.introducao-conteudo-console span {
+  display: block;
+  font-weight: 600;
+  color: #e9e9e9;
+  font-size: 1.5rem;
+  margin-bottom: 24px;
+}
+
+.introducao-conteudo-console h1 {
+  margin-bottom: 16px;
+  font-size: 3rem;
+}
+
+.info-container {
+  padding: 48px;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.info {
+  background-color: #1c1c1c;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 4px;
+  padding: 32px;
+}
+
+.info li {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.info li:last-child {
+  margin-bottom: initial;
+}
+
+.info ul:last-child {
+  font-weight: 600;
+  color: #e9e9e9;
+}
+
+.perguntas-container {
+  padding-bottom: 48px;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.perguntas {
+  background-color: #1c1c1c;
+  border-radius: 4px;
+  padding: 32px;
+}
+
+.perguntas h1 {
+  font-size: 3rem;
+  margin-bottom: 24px;
+}
+
+.perguntas details {
+  margin-bottom: 24px;
+  padding: 0px 16px;
+  cursor: pointer;
+}
+
+.perguntas details:last-child {
+  margin-bottom: initial;
+}
+
+.perguntas details p {
+  margin-top: 8px;
+  background-color: #2e2e2e;
+  padding: 12px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  cursor: initial;
+}
+
+@media(max-width:900px) {
+  .introducao-console {
+    grid-template-columns: 1fr;
+    padding: 40px;
+  }
+  .introducao-conteudo-console {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .introducao-conteudo-console p, h1, a {
+    grid-column: 1/-1;
+    max-width: 100%;
+  }
+  .introducao-conteudo-console a {
+    text-align: center;
+  }
+  .introducao-console img {
+    height: 250px;
+    object-fit: cover;
+    object-position: bottom;
+  }
+}
+@media(max-width:550px) {
+  .info {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+  .info-container {
+    padding: 20px;
+  }
+  .perguntas {
+    padding: 12px;
+  }
+  .perguntas h1 {
+    font-size: 2.5rem;
+    text-align: center;
+  } 
+}
+@media(max-width:400px) {
+  .introducao-console {
+    padding: 10px;
+  }
+}

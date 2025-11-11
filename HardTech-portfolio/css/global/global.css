@@ -1,0 +1,120 @@
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0px;
+  background-color: #1c1c1c;
+  font-family: "Roboto", Arial, sans-serif;
+  overflow-x: hidden;
+}
+
+ul {
+  list-style: none;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.azul {
+  color: #2cb3ff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+ul,
+li,
+ol,
+p,
+a,
+div,
+details p,
+section,
+label, 
+input {
+  padding: 0px;
+  margin: 0px;
+}
+
+h1 {
+  font-family: "Fira Sans", Arial, Helvetica, sans-serif;
+  font-size: 5rem;
+  color: #fff;
+}
+
+h2, h3 {
+  color: #e9e9e9;
+}
+
+p, label {
+  color: #e9e9e9;
+  font-size: 1.35rem;
+}
+
+.botao {
+  padding: 16px 64px;
+  background: linear-gradient(#2cb3ff, #007fc7);
+  color: #001629;
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+.botao:hover {
+  background: linear-gradient(#0ea1ff, #007fc7);
+}
+
+.bg-escuro {
+  background-color: #2e2e2e;
+  max-width: 1200px;
+  width: 100%;
+}
+
+button {
+  border: none;
+  margin-top: 12px;
+  cursor: pointer;
+}
+
+details::-webkit-details-marker {
+  display: none;
+}
+
+details {
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+details:hover {
+  color: #d3d3d3;
+}
+
+details > summary {
+  list-style: none;
+}
+
+.form .col-2 {
+  grid-column: span 2;
+}
+
+.preco-riscado {
+  color: #e9e9e9;
+  opacity: 60%;
+  text-decoration: line-through;
+}

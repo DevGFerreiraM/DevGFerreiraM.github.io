@@ -1,0 +1,25 @@
+.titulo-termos {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 128px;
+}
+
+@media (max-width: 800px) {
+  .titulo-termos {
+    padding: 64px;
+  }
+  .titulo-termos h1 {
+    font-size: 3rem;
+    text-align: center;
+  }
+}
+@media (max-width: 700px) {
+  .titulo-termos {
+    padding: 32px;
+  }
+}
+@media (max-width: 450px) {
+  .titulo-termos {
+    padding: 16px;
+  }
+}

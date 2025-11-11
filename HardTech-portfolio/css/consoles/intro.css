@@ -1,0 +1,54 @@
+.intro-consoles {
+  padding: 64px auto;
+  margin: 0 auto;
+  max-width: 1200px;
+  background-image: url("../../img/console/console-introducao.jpg");
+  border-radius: 4px;
+}
+
+.container {
+  padding: 32px 0px;
+}
+
+.introducao-consoles {
+  padding: 64px 32px;
+}
+
+.intro-consoles p {
+  padding: initial;
+  margin: 32px 0px;
+}
+
+.intro-consoles a {
+  font-size: 2rem;
+}
+
+.intro-consoles a:hover {
+  color: #2cb3ff;
+}
+
+.intro-consoles img {
+  max-width: 100%;
+}
+
+@media(max-width:800px) {
+  .introducao-consoles h1 {
+    font-size: 3rem;
+  }
+}
+  @media(max-width:400px) {
+  .introducao-consoles h1 {
+    font-size: 2.5rem;
+  }
+  .intro-consoles p {
+    margin: 16px 0;
+  }
+  .intro-consoles {
+    background-position: center;
+  }
+}
+  @media(max-width:300px) {
+    .introducao-consoles {
+      padding: 32px 16px;
+    }
+}

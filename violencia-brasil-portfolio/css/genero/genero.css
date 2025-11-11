@@ -1,0 +1,81 @@
+.genero {
+  padding: 32px;
+  margin-top: -48px;
+}
+
+.genero h2 {
+  text-align: center;
+  margin-bottom: 16px;
+  margin-top: 52px;
+}
+
+.genero h3 {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.genero-conteudo {
+  display: flex;
+  margin-bottom: 48px;
+}
+
+.genero-conteudo p {
+  background-color: #1c1c1c;
+  padding: 16px;
+  font-size: 1.5rem;
+}
+
+.genero-homem p {
+  margin-top: 8px;
+  margin-bottom: 32px;
+}
+
+.genero-homem img {
+  background-color: #fff;
+  width: 100%;
+}
+
+.genero-mulher p {
+  margin-top: 8px;
+  margin-bottom: 32px;
+}
+
+.genero-mulher img {
+  background-color: #fff;
+  width: 100%;
+}
+
+.explicacao-genero {
+  background-color: #1c1c1c;
+  padding: 32px;
+  display: flex;
+  gap: 20px;
+  border-radius: 4px;
+}
+
+.lista-explicacao-genero1 li:first-child  {
+  margin-bottom: 20px;
+}
+
+.lista-explicacao-genero2 li:first-child  {
+  margin-bottom: 20px;
+}
+
+.explicacao-genero span {
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.genero h3 {
+  text-align: center;
+  margin-bottom: -4px;
+  border: none;
+  background-color: #1c1c1c;
+  border-radius: 4px;
+  padding: 8px 16px;
+  font-size: 1.5rem;
+  margin-top: 40px;
+  color: #fff;
+  font-weight: 600;
+}

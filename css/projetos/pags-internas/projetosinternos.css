@@ -1,0 +1,124 @@
+.projetofeito h1 {
+  margin-top: 32px;
+  font-size: 2rem;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+
+.projetofeito p {
+  font-size: 1.250rem;
+  margin-top: 16px;
+  margin-bottom: 28px;
+}
+
+.projetofeito a {
+  padding: 12px 16px;
+  background: linear-gradient(#2cb3ff, #007fc7);
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.projetofeito a:hover {
+  background: linear-gradient(#11A9FF, #006AA5);
+}
+
+.imagens-projeto {
+  margin-top: 48px;
+}
+
+.imagens-projeto h1 {
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+
+.imagens-projeto img {
+  border-radius: 4px;
+}
+
+.imagens-projeto p {
+  font-size: 1.5rem;
+  margin-top: 24px;
+  margin-bottom: 12px;
+}
+
+.css-proj {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  margin-top: 12px;
+  gap: 12px;
+}
+
+.css-proj p {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.js-proj {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  margin-top: 12px;
+  gap: 12px;
+}
+
+.js-proj p {
+  font-size: 1.5rem;
+  font-weight: 500;
+  grid-column: 2;
+  grid-row: 1/-1;
+}
+
+.js-proj img {
+  grid-column: 1;
+  grid-row: 1/-1;
+}
+
+.imagens-projeto strong {
+  font-family: "IBM Plex Mono", Arial, Helvetica, sans-serif;
+}
+
+@media(max-width:850px) {
+  .projetofeito h1 {
+    text-align: center;
+  }
+  .projetofeito p {
+    font-size: 1.125rem;
+  }
+  .imagens-projeto h1 {
+    text-align: center;
+  }
+  .imagens-projeto p {
+    font-size: 1.250rem;
+  }
+  .imagens-projeto img {
+    height: 300px;
+    object-fit: cover;
+    width: 100%;
+  }
+  .css-proj {
+    grid-template-columns: 1fr;
+  }
+  .js-proj {
+    grid-template-columns: 1fr;
+  }
+  .js-proj p {
+    grid-row: initial;
+    grid-column: initial;
+  }
+  .js-proj img {
+    grid-row: initial;
+    grid-column: initial;
+  }
+}
+@media(max-width:400px) {
+  .projetofeito {
+    padding: 4px;
+  }
+  .projetofeito a {
+    display: block;
+    text-align: center;
+  }
+  .imagens-projeto p {
+    padding: 4px;
+  }
+}

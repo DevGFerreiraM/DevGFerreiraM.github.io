@@ -1,0 +1,91 @@
+.promocao-mensal {
+  padding: 120px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.promocao-mensal h1 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 36px;
+}
+
+.promocao {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  background-color: #1c1c1c;
+  border-radius: 4px;
+  text-align: end;
+}
+
+.promocao-conteudo {
+  padding: 32px;
+}
+
+.promocao-conteudo h2 {
+  margin-bottom: 32px;
+  font-size: 2rem;
+}
+
+.promocao-conteudo p {
+  margin-bottom: 64px;
+  padding: initial;
+}
+
+.promocao img {
+  width: 100%;
+  border-radius: 0px 5px 5px 0px;
+}
+
+.promocao-conteudo span {
+  font-weight: bold;
+}
+
+@media (max-width: 1000px) {
+  .promocao-mensal {
+    padding: 60px;
+  }
+}
+
+@media (max-width: 900px) {
+  .promocao-mensal {
+    padding: 40px;
+  }
+  .promocao {
+    grid-template-columns: 1fr;
+  }
+  .promocao img {
+    height: 250px;
+    object-fit: cover;
+    grid-row: 1;
+    border-radius: 5px 5px 0px 0px;
+  }
+  .promocao-conteudo {
+    text-align: start;
+  }
+  .promocao-conteudo p {
+    margin-bottom: 24px;
+  }
+  .promocao-conteudo h2 {
+    margin-bottom: 18px;
+  }
+  .promocao-conteudo a {
+    display: block;
+    text-align: center;
+  }
+}
+@media (max-width: 400px) {
+  .promocao-mensal {
+    padding: 10px;
+  }
+  .promocao-mensal h1 {
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
+}
+@media (max-width: 350px) {
+  .promocao-mensal {
+    padding: 12px 0 0 0;
+  }
+}

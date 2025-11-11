@@ -1,0 +1,81 @@
+.intro-acessorios {
+  padding: 64px auto;
+  margin: 0 auto;
+  max-width: 1200px;
+  background-image: url("../../img/acessorios/acessorios-introducao.jpg");
+  border-radius: 4px;
+}
+
+.introducao-acessorios {
+  padding: 64px 32px;
+}
+
+.introducao-acessorios p {
+  padding: initial;
+  margin: 32px 0px;
+  max-width: 75ch;
+}
+
+.intro-acessorios a {
+  font-size: 2rem;
+}
+
+.intro-acessorios a:hover {
+  color: #2cb3ff;
+}
+
+.produtos-acessorios {
+  margin-top: 64px;
+  padding: 0px 80px;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.produtos-acessorios h1 {
+  margin-top: 32px;
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 24px;
+}
+
+.produtos-acessorios img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.produtos-acessorios .produto1 span {
+  font-weight: 600;
+  background-color: #2e2e2e;
+  padding: 16px;
+  border-radius: 0px 4px 4px 0px;
+}
+
+.produtos-acessorios .produto2 span {
+  font-weight: 600;
+  background-color: #2e2e2e;
+  padding: 16px;
+  border-radius: 4px 0px 0px 4px;
+}
+
+@media(max-width:800px) {
+  .introducao-acessorios h1 {
+    font-size: 3rem;
+  }
+  .produtos-acessorios h1 {
+    margin-top: 24px;
+  }
+  .intro-acessorios {
+    background-repeat: no-repeat;
+  }
+  .produtos-acessorios {
+    padding: 40px;
+  }
+}
+@media(max-width:400px) {
+  .produtos-acessorios {
+    padding: 0px;
+  }
+  .introducao-acessorios h1 {
+    font-size: 2.5rem;
+  }
+}

@@ -3,112 +3,129 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Gabriel Ferreira - Desenvolvedor e Designer</title>
-  <link rel="stylesheet" href="./css/style.css">
-  <meta name="description" content="Portfólio - Gabriel Ferreira Mendes, DEV Front-End e UI Designer.">
-  <link rel="icon" href="./img/favicon.svg" type="icone">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./img/icone-fav.svg" type="image/x-icon">
+  <link rel="stylesheet" href="./style.css">
+  <title>Gabriel Ferreira Mendes - Desenvolvedor Front-End & UI/UX Designer</title>
 </head>
 
-
 <body>
-  <header class="header">
-    <img src="./img/Gabriel Ferreira Mendes - branco.svg" alt="Gabriel Ferreira Mendes">
-    <nav>
-      <ul class="header-menu">
-        <li><a href="#experiencia">Experiência</a></li>
-        <li><a href="#formacao">Formação</a></li>
-        <li><a href="#contato">Contato</a></li>
-      </ul>
-    </nav>
+
+  <header>
+    <div class="header">
+      <div class="header-conteudo">
+        <a href="./index.html"><img id="brand-logo" src="./img/marca.svg" alt=""></a>
+        <nav>
+          <ul class="header-menu">
+            <li><a href="./sobremim.html">Sobre Mim</a></li>
+            <li><a href="./projetos.html">Projetos</a></li>
+            <li><a href="./sobremim.html#formacoes">Formações</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
   </header>
 
-  <main class="introducao">
-    <div class="imagem">
-      <img src="./img/perfil.jpg" alt="Minha pessoa.">
-    </div>
-    <div>
-      <h1>Desenvolvedor<br>
-        Front-End &<br>
-        UX/UI Designer
-      </h1>
-      <p>📍 São Bernardo do Campo, SP</p>
-    </div>
-  </main>
-
-  <section class="experiencia" id="experiencia" aria-label="Experiência">
-
-    <div class="background-experiencia">
-
-      <div class="experiencia-1">
-        <P>Faço pequenos projetos utilizando <strong>HTML</strong>, <strong>CSS</strong> e <strong>JavaScript</strong>.<br>
-          Também trabalho com o <strong>UX</strong> e <strong>UI Design</strong> dos projetos.
-        </P>
+  <div class="background">
+    <main class="info-principal">
+      <div class="fotodeperfil">
+        <img id="fotodeperfil" src="./img/perfil.jpg" alt="Foto de Perfil">
       </div>
-
-      <a href="./bikcraft-portfolio/indexbikcraft.html" target="_blank"><div class="experiencia-2">
-        <h3>Bikcraft - Desenvolvedor Front-End Jr.</h3>
-        <p>Site desenvolvido para um e-commerce fictício de bicicletas utilizando <strong>HTML</strong>, <strong>CSS</strong> e <strong>JavaScript</strong>.</p>
-        <p>
-          Nov. 2023 ~ Presente.
-        </p>
-      </div></a>
-
-      <a href="./UNES-portfolio/indexunes.html" target="_blank"><div class="experiencia-3">
-        <h3>UNES - Desenvolvedor Front-End Jr.</h3>
-        <p>Site desenvolvido para uma universidade fictícia utilizando <strong>HTML</strong> e <strong>CSS</strong> básicos.</p>
-        <p>
-          Out. 2023 ~ Nov. 2023
-        </p>
+      <div class="descricao-pessoal">
+        <h2>Desenvolvedor Front-End <span>& Designer</span></h2>
+        <p>📍 São Bernardo do Campo - SP - Brasil</p>
       </div>
-    </div></a>
+    </main>
 
-    <h1 class="subtitulo">EXPERIÊNCIA</h1>
+    <section class="projetos-home">
+      <h2>Alguns de meus Projetos:</h2>
+      <ul>
+        <a href="./projetos/projetobikcraft.html">
+          <li class="bik-home">
+            <h3>Bikcraft</h3>
+            <p>E-commerce de bicicletas artesanais utilizando HTML, CSS & JavaScript.</p>
+          </li>
+        </a>
+        <a href="./projetos/projetohardtech.html">
+          <li class="har-home">
+            <h3>HardTech</h3>
+            <p>Site de venda de Eletrônicos e Hardware utilizando HTML, CSS & JavaScript.</p>
+          </li>
+        </a>
+        <a href="./projetos/projetounes.html">
+          <li class="une-home">
+            <h3>UNES</h3>
+            <p>Site para Universidade Fictícia utilizando HTML & CSS.</p>
+          </li>
+        </a>
+      </ul>
+      <a class="botao-home" href="./projetos.html">Ver Todos</a>
+    </section>
 
-  </section>
-
-  <section class="formacao" id="formacao" aria-label="Formação">
-
-    <h1 class="subtitulo-formacao">FORMAÇÃO</h1>
-
-    <div class="background-formacao">
-
-      <div class="formacao-1">
-        <h3>Bacharel - Ciência da Computação</h3>
-        <p>Universidade São Judas Tadeu (USJT)</p>
-        <p>2023 ~ 2026 (Em curso)</p>
+    <section class="formacoes-home">
+      <h2>Algumas de Minhas Formações: </h2>
+      <div class="ciencia-home">
+        <h3>Ciência da Computação</h3>
+        <h4>Instituição: Universidade São Judas Tadeu - USJT</h4>
+        <p>Status: Em curso<span class="pontos"></span></p>
+        <p>2023 ~ 2026</p>
       </div>
-
-      <div class="formacao-2">
-        <h3>Língua Inglesa e Gramática</h3>
-        <p>Wizard</p>
+      <div class="html-home">
+        <h3>HTML & CSS para Iniciantes</h3>
+        <h4>Instituição: Origamid</h4>
+        <p>Status: Finalizado.</p>
+        <p>17/10/2023 ~ 18/05/2024</p>
+      </div>
+      <div class="ingles-home">
+        <h3>Língua Inglesa & Gramática</h3>
+        <h4>Instituição: Wizard</h4>
+        <p>Status: Finalizado.</p>
         <p>2011 ~ 2021</p>
       </div>
+      <a class="botao-home" href="./sobremim.html#formacoes">Ver Todos</a>
+    </section>
 
-      <div class="formacao-3">
-        <h3>HTML, CSS, JavaScript e UI/UX Design</h3>
-        <p>Origamid</p>
-        <p>2023 ~ Presente (Em curso)</p>
+    <section class="contato-home">
+      <h2>Contato:</h2>
+      <div class="contato">
+        <ul class="contato-lista">
+          <li id="telefone-home"><a href="tel:+5511995949411">Celular: +55 (11) 99594-9411</a></li>
+          <li id="email-home"><a href="mailto:gabrielmendes5431@gmail.com">Email: gabrielmendes5431@gmail.com</a></li>
+          <li><a class="linkedin" href="https://www.linkedin.com/in/devgferreiram/" target="_blank">Meu Linkedin</a></li>
+          <li><a class="github" href="https://github.com/DevGFerreiraM" target="_blank">Meu GitHub</a></li>
+        </ul>
       </div>
+    </section>
+  </div>
 
-    </div>
-  </section>
-
-  <footer class="contato" id="contato" aria-label="Contato">
-    <div class="background-contato">
-      <h1 class="subtitulo-contato">CONTATO</h1>
-      <div class="conteudo-contato">
-        <a href="mailto:gabrielmendes5431@gmail.com" class="email"><strong>Email: gabrielmendes5431@gmail.com</strong></a>
-        <a href="tel:+5511995949411" class="celular"><Strong>Celular: +55 (11) 99594-9411 </Strong></a>
-        <p class="contato-texto">Estou sempre à procura de novos desafios e experiências. Sinta-se à vontade para entrar em contato com qualquer um dos meios disponíveis!</p>
+  <footer>
+    <div class="footer">
+      <div class="footer-conteudo">
+        <img id="brand-logo2" src="./img/marca.svg" alt="">
+        <nav>
+          <ul class="footer-menu">
+            <li><a href="./sobremim.html">Sobre Mim</a></li>
+            <li><a href="./projetos.html">Projetos</a></li>
+            <li><a href="./sobremim.html#formacoes">Formações</a></li>
+          </ul>
+        </nav>
       </div>
-    </div>
+      <div class="contato-footer">
+        <h2>CONTATO:</h2>
+        <ul class="contato-lista-footer">
+          <li id="telefone-footer"><a href="tel:+5511995949411">Celular: +55 (11) 99594-9411</a></li>
+          <li id="email-footer"><a href="mailto:gabrielmendes5431@gmail.com">Email: gabrielmendes5431@gmail.com</a></li>
+          <li><a class="linkedin-footer" href="https://www.linkedin.com/in/devgferreiram/" target="_blank">Meu Linkedin</a></li>
+          <li><a class="github-footer" href="https://github.com/DevGFerreiraM" target="_blank">Meu GitHub</a></li>
+        </ul>
+        <p class="direitos">Todos os direitos reservados.</p>
+      </div>
   </footer>
-  <div class="direitos">Gabriel Ferreira. Alguns direitos reservados.</div>
 
+  <script src="./main.js"></script>
 </body>
 
 </html>

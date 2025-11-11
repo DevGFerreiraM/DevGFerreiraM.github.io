@@ -1,0 +1,220 @@
+.footer {
+  margin-top: 32px;
+  width: 100%;
+  background-color: #f5f5f5;
+}
+
+.contato-lista-footer {
+  margin-bottom: 16px;
+}
+
+.contato-lista-footer li:nth-child(even) {
+  background-color: #fff;
+}
+
+.contato-lista-footer li {
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.footer-conteudo {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1300px;
+  padding: 24px 0;
+}
+
+.footer-menu a {
+  font-size: 1.125rem;
+}
+
+.footer-menu li + li {
+  margin-top: 12px;
+}
+
+.footer-menu a:hover {
+  color: #5e5e5e;
+}
+
+.contato-footer {
+  margin: 0 auto;
+  max-width: 1300px;
+}
+
+.contato-footer h2 {
+  margin-top: 12px;
+  margin-bottom: 18px;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.contato-footer li {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.contato-footer li a:hover {
+  color: #5e5e5e;
+}
+
+#telefone-footer, #email-footer, .linkedin-footer, .github-footer {
+  position: relative;
+}
+
+#telefone-footer::after {
+  content: '';
+  display: block;
+  height: 24px;
+  width: 24px;
+  background-image: url('../../img/telefone.svg');
+  position: absolute;
+  top: 8px;
+  left: 276px;
+  transition: 0.3s ease;
+}
+
+#telefone-footer:hover::after {
+  left: 284px;
+}
+
+#email-footer::after {
+  content: '';
+  display: block;
+  height: 24px;
+  width: 24px;
+  background-image: url('../../img/email.svg');
+  top: 8px;
+  left: 380px;
+  position: absolute;
+  transition: 0.3s ease;
+}
+
+#email-footer:hover::after {
+  left: 388px;
+} 
+
+.linkedin-footer::after, .github-footer::after {
+  content: '';
+  display: block;
+  height: 24px;
+  width: 24px;
+  background-image: url('../../img/redirecionar.svg');
+  top: 0px;
+  left: 128px;
+  position: absolute;
+  transition: 0.3s ease;
+}
+
+.linkedin-footer:hover::after, .github-footer:hover::after {
+  left: 136px;
+}
+
+.direitos {
+  text-align: center;
+  padding: 24px;
+  font-size: 1.125rem;
+}
+
+@media(max-width:610px) {
+  .footer-conteudo {
+    display: grid;
+    gap: 12px;
+    justify-content: center;
+  }
+  .footer-conteudo img {
+    max-width: 350px;
+  }
+  .footer-menu {
+    justify-self: end;
+  }
+}
+@media(max-width:450px) {
+  .contato-footer li a {
+    font-size: 1rem;
+  }
+  #telefone-footer::after {
+    left: 220px;
+  }
+  #telefone-footer:hover::after {
+    left: 228px;
+  }
+  #email-footer::after {
+    left: 306px;
+  }
+  #email-footer:hover::after {
+    left: 314px;
+  }
+  .github-footer::after, .linkedin-footer::after {
+    left: 102px;
+    top: 0px;
+  }
+  .github-footer:hover::after, .linkedin-footer:hover::after {
+    left: 110px;
+  }
+}
+@media(max-width:370px) {
+ .footer-conteudo img {
+  max-width: 250px;
+ } 
+ .contato-footer h2 {
+  font-size: 1rem;
+ }
+ .footer-menu a {
+  font-size: 0.8rem;
+ }
+ .footer-menu li + li {
+  margin-top: 4px;
+ }
+}
+@media(max-width:350px) {
+  .contato-footer li a {
+    font-size: 0.920rem;
+  }
+  #telefone-footer::after {
+    left: 202px;
+  }
+  #telefone-footer:hover::after {
+    left: 206px;
+  }
+  #email-footer::after {
+    left: 280px;
+  }
+  #email-footer:hover::after {
+    left: 284px;
+  }
+  .github-footer::after, .linkedin-footer::after {
+    left: 96px;
+    top: 0px;
+  }
+  .github-footer:hover::after, .linkedin-footer:hover::after {
+    left: 100px;
+  }
+}
+@media(max-width:310px) {
+  .contato-footer li a {
+    font-size: 0.850rem;
+  }
+  #telefone-footer::after {
+    left: 192px;
+  }
+  #telefone-footer:hover::after {
+    left: 196px;
+  }
+  #email-footer::after {
+    left: 260px;
+  }
+  #email-footer:hover::after {
+    left: 264px;
+  }
+  .github-footer::after, .linkedin-footer::after {
+    left: 86px;
+    top: 0px;
+  }
+  .github-footer:hover::after, .linkedin-footer:hover::after {
+    left: 90px;
+  }
+}

@@ -1,0 +1,16 @@
+@import "./css/global.css";
+@import "./css/header.css";
+@import "./css/home/introducao.css";
+@import "./css/home/categorias.css";
+@import "./css/home/historia.css";
+@import "./css/footer.css";
+
+@import "./css/regiao/regiao.css";
+
+@import "./css/externos/externos.css";
+
+@import "./css/genero/genero.css";
+
+@import "./css/etnia/etnia.css";
+
+@import "./css/animacao.css";

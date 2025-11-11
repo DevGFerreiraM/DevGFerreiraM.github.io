@@ -1,0 +1,167 @@
+@media(prefers-color-scheme: dark) {
+  html {
+    background-color: #2a2a2a;
+  }
+  .header {
+    background-color: #1c1c1c;
+  }
+  .header-conteudo li a {
+    color: #f5f5f5;
+  }
+  .header-menu a::after {
+    background-color: #d1d1d1;
+  }
+  .header-menu a:hover {
+    color: #d1d1d1;
+  }
+  .info-principal img {
+    padding-left: 4px;
+  }
+  .info-principal {
+    background-color: #111;
+  }
+  .info-principal {
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
+  }
+  .descricao-pessoal {
+    color: #f1f1f1;
+  }
+  .projetos-home h2 {
+    color: #f1f1f1;
+  }
+  .projetos-home li {
+    background-color: #111;
+  }
+  .projetos-home h3, .projetos-home p {
+    color: #f1f1f1;
+  }
+  .projetos-home li:hover {
+    background-color: #000;
+  }
+  .projetos-home li {
+    border-top: 4px solid #000;
+    border-bottom: 4px solid #000;
+  }
+  .projetos-home {
+    border-bottom: 4px solid #000;
+  }
+  .formacoes-home h2 {
+    color: #f1f1f1;
+  }
+  .formacoes-home div {
+    background-color: #111;
+    color: #f1f1f1;
+    border-top: 4px solid #000;
+    border-bottom: 4px solid #000;
+  }
+  .formacoes-home div:hover {
+    background-color: #000;
+  }
+  .formacoes-home {
+    border-bottom: 4px solid #000;
+  }
+  .contato-home h2 {
+    color: #f1f1f1;
+  }
+  .contato {
+    background-color: #2a2a2a;
+  }
+  .contato-lista li:nth-child(even) {
+    background-color: #111;
+  }
+  .contato-lista a {
+    color: #f1f1f1;
+  }
+  .contato-lista a:hover {
+    color: #d1d1d1;
+  }
+  .footer {
+    background-color: #1c1c1c;
+  }
+  .footer-conteudo a {
+    color: #f1f1f1;
+  }
+  .footer-conteudo a:hover {
+    color: #d1d1d1;
+  }
+  .footer h2 {
+    color: #f5f5f5;
+  }
+  .direitos {
+    color: #f5f5f5;
+  }
+  .contato-lista-footer li a {
+    color: #f1f1f1;
+  }
+  .contato-lista-footer li:nth-child(even) {
+    background-color: #000;
+  }
+  .contato-lista-footer li a:hover {
+    color: #d1d1d1;
+  }
+  .introducao-basica p {
+    color: #f1f1f1;
+    background-color: #111;
+    border-radius: 4px;
+  }
+  .introducao-basica span {
+    color: #f5f5f5;
+  }
+  .introducao-basica span:hover {
+    color: #d1d1d1;
+  }
+  .intro h1 {
+    color: #f1f1f1;
+  }
+  .formacao h2 {
+    color: #f1f1f1;
+  }
+  .formacoes div {
+    background-color: #111;
+    color: #f5f5f5;
+  }
+  .formacoes div:hover {
+    background-color: #000;
+  }
+  .projetos h1 {
+    color: #f1f1f1;
+  }
+  .projetos-feitos div {
+    background-color: #000;
+    color: #f5f5f5;
+  }
+  .projetos-feitos div p {
+    color: #e1e1e1;
+  } 
+  .projetos-feitos div a {
+    background-color: #2c2c2c;
+    color: #f5f5f5;
+  }
+  .projetos-feitos div h3 {
+    color: #f9f9f9;
+  }
+  .projetos-feitos div a:hover {
+    background-color: #1a1a1a;
+  }
+  .projetofeito h1 {
+    color: #f1f1f1;
+  }
+  .projetofeito div p {
+    color: #e1e1e1;
+  }
+  .imagens-projeto h1 {
+    color: #f1f1f1;
+  }
+  .imagens-projeto div p {
+    color: #e1e1e1;
+    background-color: #000;
+    padding: 8px;
+    border-radius: 4px;
+  }
+  @media(max-width:900px) {
+    .header-menu a {
+      background-color: #000;
+    }
+  }
+}

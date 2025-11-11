@@ -1,0 +1,89 @@
+.etnia {
+  padding: 32px;
+  margin-bottom: 40px;
+}
+
+.etnia h2 {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.etnia-conteudo {
+  display: flex;
+}
+
+.etnia-conteudo p {
+  padding: 16px;
+  font-size: 1.5rem;
+  border-radius: 4px;
+  background-color: #1c1c1c;
+}
+
+.etnia-conteudo img {
+  background-color: #fff;
+  width: 75%;
+}
+
+.etnia h2:nth-child(3) {
+  margin-top: 48px;
+}
+
+
+.etnia-negros span {
+  font-weight: 600;
+}
+
+.etnia-negros img {
+  width: 100%;
+}
+
+.etnia-negros p {
+  margin-top: 8px;
+}
+
+.explicacao-etnia1 {
+  background-color: #1c1c1c;
+  display: flex;
+  padding: 32px;
+  gap: 20px;
+  border-radius: 4px;
+}
+
+.explicacao-etnia2 {
+  background-color: #1c1c1c;
+  display: flex;
+  padding: 32px;
+  gap: 20px;
+  border-radius: 4px;
+}
+
+.explicacao-etnia1 span {
+  font-weight: 600;
+  color: #fff;
+}
+
+.explicacao-etnia2 span {
+  font-weight: 600;
+  color: #fff;
+}
+
+.lista-explicacao-etnia1 li:first-child {
+  margin-bottom: 20px;
+}
+
+.lista-explicacao-etnia2 li:first-child {
+  margin-bottom: 20px;
+}
+
+.etnia h3 {
+  text-align: center;
+  margin-bottom: -4px;
+  border: none;
+  background-color: #1c1c1c;
+  border-radius: 4px;
+  padding: 8px 16px;
+  font-size: 1.5rem;
+  margin-top: 40px;
+  color: #fff;
+  font-weight: 600;
+}
